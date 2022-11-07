@@ -5,7 +5,7 @@ import { comMojangFolder } from './src/comMojangFolder.ts'
 import { initRuntimes, swcVersion } from './src/deps.ts'
 
 // @ts-ignore: Required by some of our dependencies
-window.global = window
+window.global = window;
 // @ts-ignore: Required by some of our dependencies
 window.process = {
 	cwd: () => '',
